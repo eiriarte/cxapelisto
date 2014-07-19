@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="{D80E2CE2-5CA7-47bb-97B7-6E3A3F0581C6}"
+                   em:name="Ĉapelisto"
+                   em:version="0.7.3"
+                   em:creator="Eduardo Iriarte Gahete"
+                   em:description="Ĉapelisto konvertas retpaĝojn el ikso-sistemo al supersigna sistemo"
+                   em:homepageURL="http://cxapelisto.sourceforge.net/"
+                   em:iconURL="chrome://cxapelisto/skin/cx_granda.png">
+    <em:targetApplication RDF:resource="rdf:#$X.rJc3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$X.rJc3"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="1.5"
+                   em:maxVersion="3.6.*" />
+</RDF:RDF>

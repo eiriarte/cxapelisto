@@ -1,0 +1,4 @@
+content	cxapelisto	jar:chrome/cxapelisto.jar!/content/
+overlay	chrome://browser/content/browser.xul	chrome://cxapelisto/content/cxapelisto.xul
+
+skin	cxapelisto	classic/1.0	jar:chrome/cxapelisto.jar!/skin/
